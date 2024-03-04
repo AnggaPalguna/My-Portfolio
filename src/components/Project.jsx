@@ -1,5 +1,9 @@
+"use client";
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const projectData = [
   {
@@ -26,10 +30,14 @@ const projectData = [
 ];
 
 const Project = () => {
+  useEffect(() =>{
+    AOS.init({duration:2200})
+  })
   return (
-    <section id="project" className="min-h-screen">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">My Projects</h2>
-      <div className="lg:flex lg:justify-between">
+    <section id="project" className="min-h-screen" data-aos='fade-up'>
+      <div className="lg:h-[50px]"></div>
+      <h2 className="my-20 text-center text-4xl font-bold dark:text-white lg:mt-[50px] mb-8 md:mb-12 ">My Projects</h2>
+      <div className="dark:text-white lg:flex lg:justify-between mb-20">
         {projectData.map((project) => (
           <ProjectCard
             key={project.id}
