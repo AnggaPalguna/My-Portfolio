@@ -10,7 +10,7 @@ const MenuOverlay = ({links}) => {
             </li>
         )) }
     </ul>
-  )
+  ) 
 }
 
 export default MenuOverlay

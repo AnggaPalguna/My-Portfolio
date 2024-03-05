@@ -8,24 +8,24 @@ import "aos/dist/aos.css";
 const projectData = [
   {
     id: 1,
-    title: "dummy",
-    description: "dummy is dummy it's rill",
+    title: "LIBRARY APPLICATION GUI",
+    description: "A Java GUI based application to store book borrowing data, etc",
     image: "/images/project/project1.png",
-    gitUrl:"/",
+    gitUrl:"https://github.com/AnggaPalguna/Sistem-Informasi-Perpustakaan",
   },
   {
     id: 2,
-    title: "dummy",
-    description: "dummy is dummy it's rill",
-    image: "/images/project/project1.png",
-    gitUrl:"/",
+    title: "ABSENCE HISTORY WEB",
+    description: "web to display attendance hostory from database and iot device",
+    image: "/images/project/project2.png",
+    gitUrl:"https://github.com/AnggaPalguna/absenrfid",
   },
   {
     id: 3,
-    title: "dummy",
-    description: "dummy is dummy it's rill",
-    image: "/images/project/project1.png",
-    gitUrl:"/",
+    title: "PORTOGRID WEB",
+    description: "A gallery website that can display a collection of photos",
+    image: "/images/project/project3.png",
+    gitUrl:"https://github.com/AnggaPalguna/gallery-web.git",
   },
 ];
 
@@ -34,10 +34,10 @@ const Project = () => {
     AOS.init({duration:2200})
   })
   return (
-    <section id="project" className="min-h-screen" data-aos='fade-up'>
+    <section id="project" className="min-h-screen" >
       <div className="lg:h-[50px]"></div>
-      <h2 className="my-20 text-center text-4xl font-bold dark:text-white lg:mt-[50px] mb-8 md:mb-12 ">My Projects</h2>
-      <div className="dark:text-white lg:flex lg:justify-between mb-20">
+      <h2 className="my-20 text-center text-4xl font-bold dark:text-white lg:mt-[50px] mb-8 md:mb-12 " data-aos='fade-up'>My Projects</h2>
+      <div className="dark:text-white lg:flex lg:justify-between mb-20" data-aos='fade-up'>
         {projectData.map((project) => (
           <ProjectCard
             key={project.id}
