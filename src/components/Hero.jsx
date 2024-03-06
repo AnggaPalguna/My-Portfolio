@@ -12,9 +12,10 @@ const Hero = () => {
   })
   return (
     <section>
+      <div className="absolute w-[270px] h-[270px] md:ml-[90px] md:h-[400px] md:w-[400px] justify-end -z-10 md:block circle dark:circle rounded-full mt-[-20px]"></div>
       <div className="grid grid-cols-1 mb-5 mt-[90px] lg:grid-cols-2 gap-4 lg:mt-[150px]" data-aos='fade-up'>
-        <div className="place-self-center text-center sm:text-left justify-self-start mx-auto lg:mx-16">
-          <h1 className="dark:text-white mb-4 text-4xl lg:text-6xl font-extrabold">
+        <div className="place-self-center text-center sm:text-left justify-self-start mx-auto lg:mx-16 ">
+          <h1 className=" dark:text-white mb-4 text-2xl lg:text-6xl font-extrabold">
             Hello I'm Angga <br />
             <TypeIt 
               options={{
@@ -23,7 +24,7 @@ const Hero = () => {
               }}
               getBeforeInit={(instance) => {
                 instance
-                  .type("programmer", { delay: 1000 })
+                  .type("Programmer", { delay: 1000 })
                   .delete()
                   .type("Web developer", { delay: 1000 })
                   .delete()
@@ -38,11 +39,11 @@ const Hero = () => {
             {" "}
             Based Bali, Indonesia.
           </p>
-          <div className="btn">
-            <button className="dark:text-white px-6 py-3 rounded-full mr-4 bg-transparent hover:bg-slate-200 
+          <div className="btn mt-6">
+            <a href="https://drive.google.com/uc?export=download&id=18LduNED9dNasUAqtsSpKXhB6wCcaY9rw" className="dark:text-white px-6 py-3 rounded-full mr-4  bg-transparent hover:bg-slate-200 
             dark:hover:bg-slate-800 border border-black dark:border-white mt-2">
               Get my CV
-            </button>
+            </a>
           </div>
         </div>
         <div className="col-span-1 place-self-center mt-9 lg:mt-6 relative mx-auto">

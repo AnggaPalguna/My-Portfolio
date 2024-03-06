@@ -14,10 +14,10 @@ import ThemeBtn from "@/components/ThemeBtn";
 export default function Home() {
 
   return (
-    <main className="flex min-h-screen flex-col " >
+    <main className="flex min-h-screen flex-col background-about dark:background-about" >
       <Navbar/>
       <ThemeBtn/>
-      <div className="container mx-auto px-12 py-4 ">
+      <div className="container px-12 py-4 mx-auto">
         <Hero/>
         <About/>
         <Project/>

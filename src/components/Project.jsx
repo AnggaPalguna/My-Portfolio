@@ -37,7 +37,7 @@ const Project = () => {
     <section id="project" className="min-h-screen" >
       <div className="lg:h-[50px]"></div>
       <h2 className="my-20 text-center text-4xl font-bold dark:text-white lg:mt-[50px] mb-8 md:mb-12 " data-aos='fade-up'>My Projects</h2>
-      <div className="dark:text-white lg:flex lg:justify-between mb-20" data-aos='fade-up'>
+      <div className="dark:text-white lg:flex lg:justify-between mb-20 " data-aos='fade-up'>
         {projectData.map((project) => (
           <ProjectCard
             key={project.id}

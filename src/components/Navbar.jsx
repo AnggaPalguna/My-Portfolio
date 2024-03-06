@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-slate-600 bg-opacity-30 dark:bg-[#3c3c3c] dark:bg-opacity-85 backdrop-blur-sm">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-5">
+      <div className="flex flex-wrap items-center justify-between w-full px-4 py-5">
         <Link href="/" className=" text-5xl font-semibold mt-1 fill-white">
         <Image
             className="filter-none dark:filter-invert-[1] dark:filter invert"

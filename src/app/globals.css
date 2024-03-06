@@ -31,3 +31,25 @@ body {
     text-wrap: balance;
   }
 } */
+  /* .cicleD{
+    background: linear-gradient();
+    filter: blur(120px);
+  } */
+
+.circle{
+  background: linear-gradient(to bottom, #e89be4 40%, #ffa2a3 50%);
+  filter: blur(100px);
+
+}
+
+:is(.dark .dark\:circle) {
+    background: linear-gradient(to bottom, #19dc04 40%, #c7fa63 50%);
+    filter: blur(120px);
+}
+
+.background-about{
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+:is(.dark .dark\:background-about) {
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23b4ff80' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");}
