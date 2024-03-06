@@ -62,7 +62,6 @@ const About = () => {
         <section id='about' className="min-h-screen ">
                 <div className="lg:h-[50px]"></div>
                 <div className='mt-[120px] lg:mt-[50px] justify-center  md:grid md:grid-cols-2 gap-8 items-center py-8 md:px-16 xl:gap-16 sm:py-16 xl:py-16' data-aos='fade-up'>
-                    
                     <Image src="/images/AboutBT.png"
                         className='rounded-l-lg'
                         width={500}
