@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 mb-5 mt-[90px] lg:grid-cols-2 gap-4 lg:mt-[150px]" data-aos='fade-up'>
         <div className="place-self-center text-center sm:text-left justify-self-start mx-auto lg:mx-16 ">
           <h1 className=" dark:text-white mb-4 text-2xl lg:text-6xl font-extrabold">
-            Hello I'm Angga <br />
+            Hello I am Angga <br />
             <TypeIt 
               options={{
                 speed: 100,

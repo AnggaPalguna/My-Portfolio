@@ -63,13 +63,14 @@ const About = () => {
                 <div className="lg:h-[50px]"></div>
                 <div className='mt-[120px] lg:mt-[50px] justify-center  md:grid md:grid-cols-2 gap-8 items-center py-8 md:px-16 xl:gap-16 sm:py-16 xl:py-16' data-aos='fade-up'>
                     <Image src="/images/AboutBT.png"
+                        alt='about'
                         className='rounded-l-lg'
                         width={500}
                         height={500}
                     />
                     <div className='mt-12 md:mt-0 text-left flex flex-col h-full'>
                         <h2 className='text-center md:text-left dark:text-white text-4xl font-bold mb-4'>About Me</h2>
-                        <p className='  dark:text-white text-base md:text-lg'>An informatics engineering student that's interested in the IT Industry, with a disciplined and responsible personality. Has a high motivation to learn things and develop hard skills as well as soft skills.</p>
+                        <p className='  dark:text-white text-base md:text-lg'>An informatics engineering student that is interested in the IT Industry, with a disciplined and responsible personality. Has a high motivation to learn things and develop hard skills as well as soft skills.</p>
                         <div className="dark:text-white flex flex-row justufy-start mt-8 ">
                             <TabButton selectTab={() => handleTabChange("skills")}
                                 active={tab === "skills"}>Skills</TabButton>
