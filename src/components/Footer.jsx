@@ -18,11 +18,15 @@ const Footer = () => {
             Contact me <IoMdMail className="w-6 h-6 ml-2 mt-1" />
           </a>
         </li>
-        <li>
-        <IoLogoGithub  href="https://github.com/AnggaPalguna" className="h-10 w-10 hover:text-black dark:hover:text-white me-4 md:me-6" />
+        <li> 
+        <a href="https://github.com/AnggaPalguna" target='_blank'>
+          <IoLogoGithub className="h-10 w-10 hover:text-black dark:hover:text-white me-4 md:me-6" />
+        </a>
         </li>
         <li>
-        <FaLinkedin  href="https://www.linkedin.com/in/kadek-palguna-30b009218/?trk=public-profile-join-page" className="h-10 w-10 hover:text-black dark:hover:text-white me-4 md:me-6" />
+        <a href="https://www.linkedin.com/in/kadek-palguna-30b009218/?trk=public-profile-join-page">
+          <FaLinkedin  className="h-10 w-10 hover:text-black dark:hover:text-white me-4 md:me-6" />
+        </a>
         </li>
     </ul>
     </div>
